@@ -2,8 +2,6 @@ export function addBorder(picture: string[]): string[] {
     const wall = '*'.repeat(picture[0].length + 2)
     
 
-    
-
     picture.unshift(wall);
     picture.push(wall)
 
